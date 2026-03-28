@@ -18,6 +18,7 @@ copyright = "Copyright &copy; 2026 - Neo Lee"
   headline = "Vision quests of a soul hacker"
   bio = "观察与思考者"
   links = [
+    { rss = "https://digest.soulhacker.me/index.xml" },
     { email = "mailto:neo@soulhacker.me" },
     { link = "https://soulhacker.me/" },
   #   { amazon = "https://www.amazon.com/hz/wishlist/ls/wishlist-id" },

@@ -30,6 +30,15 @@
 #     target = "_blank"
 
 [[main]]
+  name = "RSS"
+  url = "https://digest.soulhacker.me/index.xml"
+  weight = 30
+  [main.params]
+    icon = "rss"
+    showName = false
+    target = "_blank"
+
+[[main]]
   identifier = "search"
   weight = 99
   [main.params]
