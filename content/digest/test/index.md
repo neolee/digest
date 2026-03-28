@@ -183,7 +183,7 @@ ORDER BY created_at DESC;
 
 ---
 
-## 代码高亮测试
+## 代码高亮
 
 ```diff
 - old line
@@ -215,7 +215,7 @@ port = 1313
 
 ---
 
-## Footnote 测试
+## Footnote
 
 这里有一个脚注。[^1]
 
@@ -223,7 +223,30 @@ port = 1313
 
 ---
 
-## 数学公式
+## Shortcodes
+
+来自 [Hugo](https://gohugo.io/content-management/shortcodes/) 和 [Congo](https://jpanther.github.io/congo/docs/shortcodes/) 主题支持的一些特殊标签。
+
+### 特殊提示
+
+Warning 图标：
+
+{{< alert >}}
+**Warning!** This action is destructive!
+{{< /alert >}}
+
+Twitter 图标：
+
+{{< alert "x-twitter" >}}
+Don't forget to [follow me](https://x.com/soulhacker) on X.
+{{< /alert >}}
+
+### Badge
+
+{{< badge >}}新文章{{< /badge >}} 
+为什么我要创建新的站点？
+
+### 数学公式
 
 行内公式：{{< katex >}}\(E = mc^2\)
 
@@ -232,9 +255,7 @@ port = 1313
 {{< katex >}}
 \(f(a,b,c) = (a^2+b^2+c^2)^3\)
 
----
-
-## Mermaid
+### Mermaid
 
 {{< mermaid >}}
 graph TD
@@ -242,6 +263,10 @@ graph TD
     B --> C[Congo]
     C --> D[Cloudflare Pages]
 {{< /mermaid >}}
+
+### Twiiter
+
+{{< x user="soulhacker" id="2034889396978401773" >}}
 
 ---
 
