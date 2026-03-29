@@ -264,7 +264,7 @@ graph TD
     C --> D[Cloudflare Pages]
 {{< /mermaid >}}
 
-### Twiiter
+### Twitter
 
 {{< x user="soulhacker" id="2034889396978401773" >}}
 
