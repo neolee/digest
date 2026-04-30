@@ -1,6 +1,6 @@
-languageCode = "zh"
-languageName = "Chinese"
-languageDirection = "ltr"
+locale = "zh"
+label = "Chinese"
+direction = "ltr"
 weight = 1
 
 title = "阅读笔记"
