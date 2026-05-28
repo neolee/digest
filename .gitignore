@@ -6,3 +6,10 @@
 hugo_stats.json
 
 .hugo_build.lock
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
